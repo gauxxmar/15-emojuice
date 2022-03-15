@@ -1,0 +1,13 @@
+/*
+  font-family: 'Maven Pro', sans-serif;
+  font-family: 'Quattrocento', serif;
+  font-family: 'Sriracha', cursive;
+*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 320px;
+}
