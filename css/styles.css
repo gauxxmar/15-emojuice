@@ -14,5 +14,9 @@ body {
 }
 
 header {
-  background-image: url('../img/image\ fruits.webp')
+  background-image: url('../img/image-fruits.webp')
+}
+
+header h1 {
+  font-family: font-family: 'Sriracha', cursive;
 }
