@@ -83,4 +83,13 @@ main p {
   text-align: center;
 }
 
+.container-fruit {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
 
+.container-fruit img {
+  height: 29px;
+}
