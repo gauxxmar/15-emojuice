@@ -9,14 +9,37 @@ html {
 }
 
 body {
-  max-width: 320px;
+  max-width: 380px;
   margin: auto;
 }
 
 header {
-  background-image: url('../img/image-fruits.webp')
+  background-image: url('../img/image-fruits.webp');
+  height: 320px;
+  background-size: cover;
+  border-top: 8px solid #57bb6b;
 }
 
 header h1 {
-  font-family: font-family: 'Sriracha', cursive;
+  margin-bottom: 1px;
+  margin-top: 20px;
 }
+
+.title {
+  background-color: #ffffffdd;
+  margin: 28px 28px; 
+  padding: 2px 0;
+  font-family: 'Quattrocento', serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.title p {
+  margin-top: 1px;
+  color: #57bb6b;
+}
+
+.title img {
+  width: 220px;
+}
+
