@@ -67,3 +67,20 @@ nav {
   border-radius: 10px;
 }
 
+main {
+  padding: 50px;
+}
+
+main h2 {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+main p {
+  font-family: 'Quattrocento', serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+
