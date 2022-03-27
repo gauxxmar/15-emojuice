@@ -68,7 +68,7 @@ nav {
 }
 
 main {
-  padding: 50px;
+  padding-top: 50px;
 }
 
 main h2 {
@@ -81,15 +81,29 @@ main p {
   font-family: 'Quattrocento', serif;
   font-size: 16px;
   text-align: center;
+  margin: 0 50px;
 }
 
 .container-fruit {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 30px;
+  margin: 30px 50px;
+  padding-bottom: 50px;
 }
 
 .container-fruit img {
   height: 29px;
 }
+
+.products {
+  background-color: #57bb6b;
+  padding: 0;
+}
+
+.products h1 {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
