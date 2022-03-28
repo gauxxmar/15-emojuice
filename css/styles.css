@@ -205,8 +205,8 @@ footer .container-fruit {
 
 .title-kiwi {
   background-color: #ffffffdd;
-  margin: 28px 28px; 
-  padding: 2px 0;
+  margin: 30px 30px; 
+  padding: 15px 0;
   font-family: 'Quattrocento', serif;
   font-size: 20px;
   text-align: center;
@@ -219,15 +219,16 @@ footer .container-fruit {
 .title-kiwi p {
   margin-top: 1px;
   color: #57bb6b;
+  font-size: 16px;
 }
 
 .header-kiwi {
-  height: 232px;
+  height: 210px;
 }
 
 .sirop-kiwi {
   background-color: #c4f2ad;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 
 .sirop-kiwi h2 {
@@ -235,11 +236,11 @@ footer .container-fruit {
   font-size: 30px;
   font-weight: 400;
   margin-bottom: 0;
-  line-height: 1;
+  line-height: 1,5;
 }
 
 .sirop-kiwi p {
-  color: rgba(0,0,0,0.5);
+  color: #57bb6b;
 }
 
 .circle-kiwi {
@@ -281,6 +282,7 @@ footer .container-fruit {
 .history-kiwi img {
   margin-left: 70px;
   margin-right: 70px;
+  
 }
 
 .history-kiwi h3 {
@@ -293,6 +295,7 @@ footer .container-fruit {
 .history-kiwi ul {
   font-family: 'Quattrocento', serif;
   margin: 0 75px;
+  padding-bottom: 60px;
   color: #ffffff;
 }
 
@@ -300,7 +303,60 @@ main h1 {
   font-family: 'Maven Pro', sans-serif;
   font-size: 22px; 
   text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
+.container-element {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 30px;
+  align-items: flex-end;
+}
 
+.product-second {
+  margin: 0;
+  height: 150px;
+  width: 150px;
+}
 
+.product-second h2 {
+  font-size: 20px;
+  margin-left: 15px;
+  line-height: 1;
+}
+
+.container-element .more {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 20px;
+  height: 75px;
+}
+
+.container-element {
+  border-radius: 15px;
+  margin-bottom: 45px;
+}
+
+.container-element a {
+  font-family: 'Maven Pro', sans-serif;
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.container-element img {
+  width: 55px;
+}
+
+.container-element .product-cafe .more {
+  height: 90px;
+}     
+
+.sirop-kiwi .button {
+  margin-bottom: 45px;
+}
