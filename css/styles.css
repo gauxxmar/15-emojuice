@@ -202,3 +202,29 @@ footer p {
 footer .container-fruit {
   padding-bottom: 20px;
 }
+
+.title-kiwi {
+  background-color: #ffffffdd;
+  margin: 28px 28px; 
+  padding: 2px 0;
+  font-family: 'Quattrocento', serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.title-kiwi img {
+  width: 220px;
+}
+
+.title-kiwi p {
+  margin-top: 1px;
+  color: #57bb6b;
+}
+
+.header-kiwi {
+  height: 232px;
+}
+
+.sirop-kiwi h2 {
+  font-family: 'Sriracha', cursive;
+}
