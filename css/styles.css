@@ -99,6 +99,7 @@ main p {
 .products {
   background-color: #57bb6b;
   padding: 0;
+
 }
 
 .products h1 {
@@ -107,5 +108,78 @@ main p {
   text-align: center;
   color: #ffffff;
   padding-top: 45px;
+  margin-bottom: 55px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+article {
+  height: 240px;
+  width: 320px;
+  margin: 25px 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+}
+
+.product-banana {
+  background-color: #fff8d7;
+}
+
+article h2 {
+  font-family: 'Sriracha', cursive;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: left;
+  margin-left: 35px;
+  margin-bottom: 0;
+}
+
+article p {
+  font-family: 'Quattrocento', serif;
+  font-size: 16px;
+}
+
+article a {
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 700;
+  color: black;
+  text-decoration: underline;
+  font-size: 15px;
+}
+
+article p {
+  text-align: left;
+  margin-left: 35px;
+}
+
+.more {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 35px;
+  height: 100px;
+}
+
+article img {
+  width: 80px;
+}
+
+.product-kiwi {
+  background-color: #c4f2ad;
+}
+
+.product-cafe {
+  background-color: #d3c6b2;
+}
+
+.product-fraise {
+  background-color: #f7a4b4;
 }
 
