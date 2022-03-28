@@ -14,7 +14,7 @@ body {
 }
 
 header {
-  background-image: url('../img/image-fruits.webp');
+  background-image: url("../img/image-fruits.webp");
   height: 320px;
   background-size: cover;
   border-top: 8px solid #57bb6b;
@@ -27,9 +27,9 @@ header h1 {
 
 .title {
   background-color: #ffffffdd;
-  margin: 28px 28px; 
+  margin: 28px 28px;
   padding: 2px 0;
-  font-family: 'Quattrocento', serif;
+  font-family: "Quattrocento", serif;
   font-size: 20px;
   text-align: center;
 }
@@ -46,7 +46,7 @@ header h1 {
 nav {
   display: flex;
   flex-direction: column;
-  align-items: center ;
+  align-items: center;
 }
 
 .button {
@@ -54,7 +54,7 @@ nav {
   margin: 0px 0px 10px;
   padding: 10px 15px;
   text-decoration: none;
-  font-family: 'Maven Pro', sans-serif;
+  font-family: "Maven Pro", sans-serif;
   color: #ffffff;
   border-radius: 10px;
 }
@@ -62,7 +62,7 @@ nav {
 .button-white {
   background-color: #ffffff;
   text-decoration: none;
-  font-family: 'Maven Pro', sans-serif;
+  font-family: "Maven Pro", sans-serif;
   color: #57bb6b;
   border-radius: 10px;
 }
@@ -72,13 +72,13 @@ main {
 }
 
 h2 {
-  font-family: 'Maven Pro', sans-serif;
+  font-family: "Maven Pro", sans-serif;
   font-size: 24px;
   text-align: center;
 }
 
 main p {
-  font-family: 'Quattrocento', serif;
+  font-family: "Quattrocento", serif;
   font-size: 16px;
   text-align: center;
   margin: 0 50px;
@@ -99,11 +99,10 @@ main p {
 .products {
   background-color: #57bb6b;
   padding: 0;
-
 }
 
 .products h1 {
-  font-family: 'Maven Pro', sans-serif;
+  font-family: "Maven Pro", sans-serif;
   font-size: 24px;
   text-align: center;
   color: #ffffff;
@@ -132,7 +131,7 @@ article {
 }
 
 article h2 {
-  font-family: 'Sriracha', cursive;
+  font-family: "Sriracha", cursive;
   font-size: 30px;
   font-weight: 400;
   text-align: left;
@@ -141,12 +140,12 @@ article h2 {
 }
 
 article p {
-  font-family: 'Quattrocento', serif;
+  font-family: "Quattrocento", serif;
   font-size: 16px;
 }
 
 article a {
-  font-family: 'Maven Pro', sans-serif;
+  font-family: "Maven Pro", sans-serif;
   font-weight: 700;
   color: black;
   text-decoration: underline;
@@ -191,7 +190,7 @@ footer h2 {
 }
 
 footer p {
-  font-family: 'Maven Pro', sans-serif;
+  font-family: "Maven Pro", sans-serif;
   font-size: 13px;
   color: #57bb6b;
   text-align: center;
@@ -205,9 +204,9 @@ footer .container-fruit {
 
 .title-kiwi {
   background-color: #ffffffdd;
-  margin: 30px 30px; 
+  margin: 30px 30px;
   padding: 15px 0;
-  font-family: 'Quattrocento', serif;
+  font-family: "Quattrocento", serif;
   font-size: 20px;
   text-align: center;
 }
@@ -232,11 +231,11 @@ footer .container-fruit {
 }
 
 .sirop-kiwi h2 {
-  font-family: 'Sriracha', cursive;
+  font-family: "Sriracha", cursive;
   font-size: 30px;
   font-weight: 400;
   margin-bottom: 0;
-  line-height: 1,5;
+  line-height: 1, 5;
 }
 
 .sirop-kiwi p {
@@ -259,7 +258,7 @@ footer .container-fruit {
 }
 
 .history-kiwi h1 {
-  font-family: 'Maven Pro', sans-serif;
+  font-family: "Maven Pro", sans-serif;
   font-size: 22px;
   text-align: left;
   color: #ffffff;
@@ -268,7 +267,7 @@ footer .container-fruit {
 }
 
 .history-kiwi p {
-  font-family: 'Quattrocento', serif;
+  font-family: "Quattrocento", serif;
   font-size: 16px;
   font-weight: 400;
   text-align: left;
@@ -282,26 +281,25 @@ footer .container-fruit {
 .history-kiwi img {
   margin-left: 70px;
   margin-right: 70px;
-  
 }
 
 .history-kiwi h3 {
-  font-family: 'Quattrocento', serif;
+  font-family: "Quattrocento", serif;
   font-size: 18px;
   color: #ffffff;
   margin: 20px 70px;
 }
 
 .history-kiwi ul {
-  font-family: 'Quattrocento', serif;
+  font-family: "Quattrocento", serif;
   margin: 0 75px;
   padding-bottom: 60px;
   color: #ffffff;
 }
 
 main h1 {
-  font-family: 'Maven Pro', sans-serif;
-  font-size: 22px; 
+  font-family: "Maven Pro", sans-serif;
+  font-size: 22px;
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -342,7 +340,7 @@ main h1 {
 }
 
 .container-element a {
-  font-family: 'Maven Pro', sans-serif;
+  font-family: "Maven Pro", sans-serif;
   color: black;
   text-decoration: none;
   font-size: 30px;
@@ -355,7 +353,7 @@ main h1 {
 
 .container-element .product-cafe .more {
   height: 90px;
-}     
+}
 
 .sirop-kiwi .button {
   margin-bottom: 45px;
